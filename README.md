@@ -1,8 +1,23 @@
-# React + Vite
+# StuHub - A hub for educational content
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+StuHub is a web application designed to provide a centralized platform for students to access and share educational
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Course management
+- Resource sharing (e.g., documents, videos, images)
+- Search functionality for courses and resources
+- User authentication and authorization
+- Responsive design for mobile and desktop devices
+
+## Technologies Used
+- Frontend: HTML5, CSS3, JavaScript (with React and Redux)  
+- Backend: Node.js, Express.js
+
+## Setup
+1. Clone the repository
+2. Install dependencies using npm or yarn
+3. Start the server using `node server.js` or `yarn start`
+4. Access the application at `http://localhost:3000`
