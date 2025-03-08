@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import NavBar from '../pages/NavBar';
 import EventCard from '../pages/EventCard';
-import EventPopup from '../pages/EventPopUp';
+import EventPopUp from '../pages/EventPopUp';
 
 import { WorkshopData } from '../utils/WorkshopData';
 import { ConcertData } from '../utils/ConcertData';
@@ -36,7 +36,7 @@ const HomePage = () => {
         {renderEventSection('Seminars', SeminarData, handleKnowMore)}
       </div>
 
-      {selectedEvent && <EventPopup event={selectedEvent} onClose={closePopup} />}
+      {selectedEvent && <EventPopUp event={selectedEvent} onClose={closePopup} />}
     </>
   );
 };
