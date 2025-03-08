@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import NavBar from './NavBar';
-import EventCard from './EventCard';
-import EventPopup from './EventPopUp';
+import NavBar from '../pages/NavBar';
+import EventCard from '../pages/EventCard';
+import EventPopup from '../pages/EventPopUp';
 
 import { WorkshopData } from '../utils/WorkshopData';
 import { ConcertData } from '../utils/ConcertData';
